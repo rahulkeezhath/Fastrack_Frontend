@@ -1,0 +1,189 @@
+    
+    .mainLogin {
+        width: 100vw;
+        height: 100vh;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        
+    }
+    
+    .login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .lgn {
+        width: 900px;
+        background: #FFF;
+        border-radius: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 70px 60px;
+        align-items: center;
+        background-image: url("https://i2.wp.com/www.hesol.co.in/wp-content/uploads/2020/12/AUTOMOTIVE.jpg?fit=1500%2C938&ssl=1");
+        background-size: cover;
+    }
+    
+    .lgn .img {
+        margin-bottom: 70px;
+    }
+    
+    .login-form {
+        margin-left: 80px;
+    }
+    
+    .login-form h4 {
+        font-size: 32px;
+        font-family: 'Itim', cursive;
+        text-align: center;
+        margin-bottom: 70px;
+        text-transform: capitalize;
+        color: rgb(23, 21, 21)
+    }
+    
+    .login-form .form-group {
+        margin: 15px 0;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    
+    .form-group .form-control {
+        background-color: #aaa8a8;
+        padding: 11px 20px 11px 65px;
+        color: #666;
+        border-radius: 50px;
+        font-size: 17px;
+        font-family: 'arial';
+        border-top-right-radius: 50px !important;
+        border-bottom-right-radius: 50px !important;
+        transition: all .2s ease-in-out;
+        outline: none !important;
+        box-shadow: none;
+        border-color: #aaa8a8
+    }
+    
+    .form-group i {
+        position: absolute;
+        left: 35px;
+        font-size: 20px;
+        color: #777;
+        text-align: center;
+        transition: all .2s ease;
+    }
+    
+    .btn-login {
+        display: block;
+        border-radius: 50px;
+        padding: 9px;
+        margin-top: 35px;
+        background-color: #57b846;
+        border-color: #57b846;
+        text-transform: uppercase;
+        font-size: 17px;
+        outline: none !important;
+        color: #FFF !important;
+        border: none;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    
+    .forget {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        color: #888;
+    }
+    
+    .forget a {
+        color: #555;
+    }
+    
+    .New-Account {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .New-Account a {
+        color: #888;
+    }
+    
+    .btn-login:hover {
+        background-color: #222;
+    }
+    
+    .input-group:focus i {
+        position: absolute;
+    }
+    
+    a:hover {
+        color: #57b846
+    }
+    .error_mg{
+        font-size: 20px;
+        color: #f70000;
+      }
+
+ @media (max-width: 575.98px) {
+        .lgn {
+            width: 300px;
+            padding: 50px 15px;
+        }
+        .lgn .img {
+            margin-bottom: 70px;
+            display: none;
+        }
+        .login-form {
+            margin-left: 0;
+        }
+        .login-form h4 {
+            margin-bottom: 60px;
+        }
+        .forget {
+            margin: 15px 0;
+            color: #888;
+        }
+        .New-Account {
+            margin-top: 40px;
+        }
+    }
+    /*Small devices (landscape phones, 576px and up)*/
+    
+    @media (min-width: 276px) and (max-width: 1199.98px) {
+        .lgn {
+            width: 600px;
+            padding: 50px 30px;
+        }
+        .lgn .img {
+            margin-bottom: 50px;
+            padding: 0 50px;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        img {
+            width: 100%;
+        }
+        .login-form {
+            margin-left: 0;
+        }
+        .login-form h4 {
+            margin-bottom: 60px;
+        }
+        
+        .forget {
+            margin: 15px 0;
+            color: #888;
+        }
+        .New-Account {
+            margin-top: 40px;
+        }
+    }

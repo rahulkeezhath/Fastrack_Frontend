@@ -1,0 +1,29 @@
+  .social_link-icon{
+    text-decoration: none;
+    color: #0006db;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.contact_btn{
+    padding: 7px 15px;
+    background: #0006db;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.error_mg{
+  font-size: 10px;
+  color: #f34646;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contact_btn {
+      margin-bottom: 40px;
+      font-size: 0.8rem;
+    }
+  }
+  

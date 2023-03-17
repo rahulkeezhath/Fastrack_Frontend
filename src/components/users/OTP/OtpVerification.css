@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+form{
+    display: grid;
+}
+
+.body1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('https://www.revv.co.in/blogs/wp-content/uploads/2020/09/car-subscriptions-rise-in-india.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.enter{
+    color: rgb(216, 17, 17);
+}
+.otp
+{
+    display: flex;
+    margin-bottom: 50px;
+}
+.otp input
+{
+    width: 100%;
+    font-size: 24px;
+    margin: 2px;
+    padding: 10px;
+    background:none;
+    outline: none;
+    border: 2px solid #27212d;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    transition: all .3s ease;
+}
+.otp input:focus
+{
+    border: 2px solid #a527ff;
+    box-shadow: 0 0 4px 4px #a527ff61;
+}
+.spacing
+{
+    margin-right: 1rem !important;
+}
+button
+{
+    padding: 15px 55px;
+    background-color: #a527ff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s;
+}
+button:active
+{
+    transform: scale(.9);
+}
+
+.error_msg{
+    width: 370px;
+    padding: 15px;
+    margin: 5px 0;
+    font-size: 14px;
+    background-color: #f34646;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .countdown-text{
+    margin-top: -45px;
+    display: flex;
+  }
+  
